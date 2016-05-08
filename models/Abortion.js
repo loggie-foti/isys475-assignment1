@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var AbortionSchema = new mongoose.Schema({
-    _id: String,
-    value: Number,
+    Year: String,
+    Abortions: Number,
 },
 {
     collection: 'abortion_counts_collection'
